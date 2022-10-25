@@ -11,3 +11,54 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.statsSelectChoice {
+  width: 100px;
+  height: 30px;
+  margin-top: 20px;
+  margin-left: 15%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid rgb(210, 207, 207);
+  border-radius: 7px;
+  min-width: 38px;
+  line-height: 1.25em;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+ 
+#statsTableCon{
+width: 400px;
+line-height: 1.15;
+font-family: "Source Sans Pro",sans-serif;
+-webkit-text-size-adjust: 100%;
+user-select: none;
+cursor: default;
+-webkit-tap-highlight-color: rgba(0,0,0,0);
+visibility: visible;
+color: #333;
+white-space: nowrap;
+padding: 12px 0 26px 0;
+text-align: center;
+}
+
+#statsTable{
+  line-height: 1.15;
+  font-family: "Source Sans Pro",sans-serif;
+  -webkit-text-size-adjust: 100%;
+  user-select: none;
+  cursor: default;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  visibility: visible;
+  color: #333;
+  white-space: nowrap;
+  margin: 0 auto;
+  border-spacing: 0;
+  border-collapse: collapse;
+  text-align: center;
+}

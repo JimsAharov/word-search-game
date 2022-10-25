@@ -1,6 +1,7 @@
 import React from "react";
 import { Button, Icon, Link, Page, Popup, View, Views } from "framework7-react";
 
+
 export function StatsModal() {
   return (
     <Popup className="demo-popup-swipe" swipeToClose>
@@ -14,11 +15,37 @@ export function StatsModal() {
         <div className="display-flex justify-content-center align-items-center">
           <Views tabs>
             <View id="tab-1" main tab tabActive>
-              <Button tabLink={"#tab-2"}>Stats</Button>
-              <div>1</div>
+              <Button tabLink={"#tab-2"}>◀Stats▶</Button>
+              <div className={'statsSelectChoice'} >1</div>
+              <div id="statsTableCon"><table id="statsTable">
+             <thead>
+               <tr>
+                 <th className={'statsTh'}>
+                   <span className={"statsThHdr"}>Games</span>
+                 </th>
+
+                 <th className={"statsTh"}>
+                   <span className={"statsThHdr"}>Best</span>
+                 </th>
+
+                 <th className={"statsTh"}>
+                    <span className={"statsThHdr"}>Average</span>
+                 </th>
+                </tr>
+              </thead>
+               
+               <tbody>
+                 <tr>
+                   <td className={"statsTd"}>0</td>
+                   <td className={"statsTd"}>-</td>
+                   <td className={"statsTd"}>-</td>
+                 </tr>
+                </tbody>
+               </table>
+              </div>
             </View>
             <View id="tab-2" tab>
-              <Button tabLink={"#tab-1"}>Achievements</Button>
+              <Button tabLink={"#tab-1"}>◀Achievements▶</Button>
               <div>2</div>
             </View>
           </Views>
