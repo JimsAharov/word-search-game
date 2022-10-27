@@ -73,11 +73,170 @@ export function StatsModal() {
                          </div>
                      </div>
                   </div>
-                  
+                  <div className={styles.statsBottom}>
+                    <input className={styles.statsResetBtn} type="button" value="Reset"/>
+                 </div>
             </View>
             <View id="tab-2" tab>
-              <Button tabLink={"#tab-1"}>◀Achievements▶</Button>
-              <div>2</div>
+              <Button tabLink={"#tab-1"} className={styles.buttonChoice}>◀  Achievements  ▶</Button>
+              <div className={styles.statsAchievementsScroller}>
+                <ul className={styles.statsAchievementsList}>
+                    <li className={styles.statsAItem}>
+                      <div className={styles.statsAProgress}>
+                          <div className={styles.statsAIconTrue}>
+                              <div className={styles.trophyStemTop}></div>
+                              <div className={styles.trophyStemMiddle}></div>
+                              <div className={styles.trophyStemBottom}></div>
+                              <div className={styles.trophyStemBase}></div>
+                              <div className={styles.trophyHandle}></div>
+                              <div className={styles.trophyCup}></div>
+                          </div>
+                          <div className={styles.statsAPct}>100%</div>
+                      </div>
+                      <div className={styles.statsAAbout}>
+                        <h5 className={styles.statsATitle}>Solve An Easy Puzzle</h5>
+                        <p className={styles.statsADesc}>Solve an easy puzzle without using hint.</p>
+                      </div>
+                    </li>
+                    <li className={styles.statsAItem}>
+                      <div className={styles.statsAProgress}>
+                          <div className={styles.statsAIconTrue}>
+                              <div className={styles.trophyStemTop}></div>
+                              <div className={styles.trophyStemMiddle}></div>
+                              <div className={styles.trophyStemBottom}></div>
+                              <div className={styles.trophyStemBase}></div>
+                              <div className={styles.trophyHandle}></div>
+                              <div className={styles.trophyCup}></div>
+                          </div>
+                          <div className={styles.statsAPct}>100%</div>
+                      </div>
+                      <div className={styles.statsAAbout}>
+                        <h5 className={styles.statsATitle}>Solve An Easy Puzzle</h5>
+                        <p className={styles.statsADesc}>Solve an easy puzzle without using hint.</p>
+                      </div>
+                    </li>
+                    <li className={styles.statsAItem}>
+                      <div className={styles.statsAProgress}>
+                          <div className={styles.statsAIconTrue}>
+                              <div className={styles.trophyStemTop}></div>
+                              <div className={styles.trophyStemMiddle}></div>
+                              <div className={styles.trophyStemBottom}></div>
+                              <div className={styles.trophyStemBase}></div>
+                              <div className={styles.trophyHandle}></div>
+                              <div className={styles.trophyCup}></div>
+                          </div>
+                          <div className={styles.statsAPct}>100%</div>
+                      </div>
+                      <div className={styles.statsAAbout}>
+                        <h5 className={styles.statsATitle}>Solve An Easy Puzzle</h5>
+                        <p className={styles.statsADesc}>Solve an easy puzzle without using hint.</p>
+                      </div>
+                    </li>
+                    <li className={styles.statsAItem}>
+                      <div className={styles.statsAProgress}>
+                          <div className={styles.statsAIconTrue}>
+                              <div className={styles.trophyStemTop}></div>
+                              <div className={styles.trophyStemMiddle}></div>
+                              <div className={styles.trophyStemBottom}></div>
+                              <div className={styles.trophyStemBase}></div>
+                              <div className={styles.trophyHandle}></div>
+                              <div className={styles.trophyCup}></div>
+                          </div>
+                          <div className={styles.statsAPct}>100%</div>
+                      </div>
+                      <div className={styles.statsAAbout}>
+                        <h5 className={styles.statsATitle}>Solve An Easy Puzzle</h5>
+                        <p className={styles.statsADesc}>Solve an easy puzzle without using hint.</p>
+                      </div>
+                    </li>
+                    <li className={styles.statsAItem}>
+                      <div className={styles.statsAProgress}>
+                          <div className={styles.statsAIconTrue}>
+                              <div className={styles.trophyStemTop}></div>
+                              <div className={styles.trophyStemMiddle}></div>
+                              <div className={styles.trophyStemBottom}></div>
+                              <div className={styles.trophyStemBase}></div>
+                              <div className={styles.trophyHandle}></div>
+                              <div className={styles.trophyCup}></div>
+                          </div>
+                          <div className={styles.statsAPct}>100%</div>
+                      </div>
+                      <div className={styles.statsAAbout}>
+                        <h5 className={styles.statsATitle}>Solve An Easy Puzzle</h5>
+                        <p className={styles.statsADesc}>Solve an easy puzzle without using hint.</p>
+                      </div>
+                    </li>
+                    <li className={styles.statsAItem}>
+                      <div className={styles.statsAProgress}>
+                          <div className={styles.statsAIconTrue}>
+                              <div className={styles.trophyStemTop}></div>
+                              <div className={styles.trophyStemMiddle}></div>
+                              <div className={styles.trophyStemBottom}></div>
+                              <div className={styles.trophyStemBase}></div>
+                              <div className={styles.trophyHandle}></div>
+                              <div className={styles.trophyCup}></div>
+                          </div>
+                          <div className={styles.statsAPct}>100%</div>
+                      </div>
+                      <div className={styles.statsAAbout}>
+                        <h5 className={styles.statsATitle}>Solve An Easy Puzzle</h5>
+                        <p className={styles.statsADesc}>Solve an easy puzzle without using hint.</p>
+                      </div>
+                    </li>
+                    <li className={styles.statsAItem}>
+                      <div className={styles.statsAProgress}>
+                          <div className={styles.statsAIconTrue}>
+                              <div className={styles.trophyStemTop}></div>
+                              <div className={styles.trophyStemMiddle}></div>
+                              <div className={styles.trophyStemBottom}></div>
+                              <div className={styles.trophyStemBase}></div>
+                              <div className={styles.trophyHandle}></div>
+                              <div className={styles.trophyCup}></div>
+                          </div>
+                          <div className={styles.statsAPct}>100%</div>
+                      </div>
+                      <div className={styles.statsAAbout}>
+                        <h5 className={styles.statsATitle}>Solve An Easy Puzzle</h5>
+                        <p className={styles.statsADesc}>Solve an easy puzzle without using hint.</p>
+                      </div>
+                    </li>
+                    <li className={styles.statsAItem}>
+                      <div className={styles.statsAProgress}>
+                          <div className={styles.statsAIconTrue}>
+                              <div className={styles.trophyStemTop}></div>
+                              <div className={styles.trophyStemMiddle}></div>
+                              <div className={styles.trophyStemBottom}></div>
+                              <div className={styles.trophyStemBase}></div>
+                              <div className={styles.trophyHandle}></div>
+                              <div className={styles.trophyCup}></div>
+                          </div>
+                          <div className={styles.statsAPct}>100%</div>
+                      </div>
+                      <div className={styles.statsAAbout}>
+                        <h5 className={styles.statsATitle}>Solve An Easy Puzzle</h5>
+                        <p className={styles.statsADesc}>Solve an easy puzzle without using hint.</p>
+                      </div>
+                    </li>
+                    <li className={styles.statsAItem}>
+                      <div className={styles.statsAProgress}>
+                          <div className={styles.statsAIconTrue}>
+                              <div className={styles.trophyStemTop}></div>
+                              <div className={styles.trophyStemMiddle}></div>
+                              <div className={styles.trophyStemBottom}></div>
+                              <div className={styles.trophyStemBase}></div>
+                              <div className={styles.trophyHandle}></div>
+                              <div className={styles.trophyCup}></div>
+                          </div>
+                          <div className={styles.statsAPct}>100%</div>
+                      </div>
+                      <div className={styles.statsAAbout}>
+                        <h5 className={styles.statsATitle}>Solve An Easy Puzzle</h5>
+                        <p className={styles.statsADesc}>Solve an easy puzzle without using hint.</p>
+                      </div>
+                    </li>
+                </ul>
+              </div>
+              <div className={styles.statsBottom}><input className={styles.statsResetBtn} type="button" value="Reset"/></div>
             </View>
           </Views>
         </div>
