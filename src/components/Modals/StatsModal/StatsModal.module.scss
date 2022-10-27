@@ -1,5 +1,230 @@
-.stats_block {
-    width: 50px;
+.statsSelectChoice {
+
+    width: 100px;
     height: 30px;
-    background-color: red;
-}
+    margin: 30px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgb(210, 207, 207);
+    border-radius: 7px;
+    min-width: 38px;
+    line-height: 1.25em;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+
+  .statsMenu{
+    margin-top: 30px;
+    
+  }
+
+   .statsMenuItem {
+    width: 150px;
+   
+  }
+   
+  
+
+  .statsTableCon{
+  
+    padding: 12px 0 26px 0;
+    text-align: center;
+    margin-top: 80px;
+  }
+  
+  .statsTable{
+    
+    margin: 0 auto;
+    border-spacing: 0;
+    border-collapse: collapse;
+    text-align: center;
+  }
+
+  .statsTableHead{
+    
+    padding: 0 16px 0 0;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 1.25em;
+    text-transform: uppercase;
+    white-space: nowrap;
+  }
+
+  .statsTableTr{
+   width: 250px;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   
+  }
+
+  .statsThHdr{
+    border-bottom: 2px dotted #ccc;
+    // padding: 4px 0 3px 0;
+  }
+
+  .statsTd{
+    padding: 4px 16px 4px 0;
+    font-size: 16px;
+    line-height: 1.5em;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+
+  .tabContent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 50vh;
+
+  }
+
+  .buttonChoice{
+    font-size: 35px;
+    color: black;
+    text-transform: none;
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+
+  .statsChartLegendCon{
+    line-height: 1.15;
+    font-family: "Source Sans Pro",sans-serif;
+    -webkit-text-size-adjust: 100%;
+    user-select: none;
+    cursor: default;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    visibility: visible;
+    color: #333;
+    text-align: left;
+    white-space: nowrap;
+    margin: 0;
+    padding: 0 28px;
+  }
+
+  .statsChartLegend{
+    line-height: 1.15;
+    font-family: "Source Sans Pro",sans-serif;
+    -webkit-text-size-adjust: 100%;
+    user-select: none;
+    cursor: default;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    visibility: visible;
+    color: #333;
+    text-align: left;
+    position: relative;
+    margin: 0;
+    max-width: 280px;
+    white-space: nowrap;
+    display:flex;
+  }
+
+  .statsChartLegendHdr{
+    font-family: "Source Sans Pro",sans-serif;
+    -webkit-text-size-adjust: 100%;
+    user-select: none;
+    cursor: default;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    visibility: visible;
+    color: #333;
+    text-align: left;
+    white-space: nowrap;
+    line-height: 1.25em;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-indent: 10px;
+    
+  }
+
+  .statsChartType{
+    font-family: "Source Sans Pro",sans-serif;
+    -webkit-text-size-adjust: 100%;
+    user-select: none;
+    cursor: default;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    visibility: visible;
+    color: #333;
+    text-align: left;
+    white-space: nowrap;
+    line-height: 1.25em;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-indent: 10px;
+  }
+
+  .statsChartLegendDetails{
+    font-family: "Source Sans Pro",sans-serif;
+    -webkit-text-size-adjust: 100%;
+    user-select: none;
+    cursor: default;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    visibility: visible;
+    color: #333;
+    text-align: left;
+    white-space: nowrap;
+    // position: absolute;
+    top: 0;
+    right: 0;
+    line-height: 1.25em;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-left: 30px;
+  }
+
+  .statsChartLegendDaily{
+    font-family: "Source Sans Pro",sans-serif;
+    -webkit-text-size-adjust: 100%;
+    user-select: none;
+    cursor: default;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    visibility: visible;
+    color: #333;
+    text-align: left;
+    white-space: nowrap;
+    line-height: 1.25em;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: inline-block;
+    margin: 0 0 2px 0;
+    width: 16px;
+    height: 0;
+    border-width: 2px 0;
+    border-color: #5282b3;
+    border-style: solid;
+    border-radius: 2px;
+    
+  }
+
+  .statsChartLegendLifetime{
+    font-family: "Source Sans Pro",sans-serif;
+    -webkit-text-size-adjust: 100%;
+    user-select: none;
+    cursor: default;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    visibility: visible;
+    color: #333;
+    text-align: left;
+    white-space: nowrap;
+    line-height: 1.25em;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: inline-block;
+    margin: 0 0 2px 0;
+    width: 16px;
+    height: 0;
+    margin-left: 9px;
+    border-width: 4px 0 0 0;
+    border-color: #66a2dd;
+    border-style: dotted;
+  }
