@@ -1,6 +1,7 @@
 import React from "react";
 import { Button, Icon, Link, Page, Popup, View, Views, Menu, MenuItem, MenuDropdown, MenuDropdownItem  } from "framework7-react";
 import styles from "./StatsModal.module.scss"
+import { Chart } from "../../Chart/Chart";
 
 export function StatsModal() {
   return (
@@ -73,6 +74,7 @@ export function StatsModal() {
                          </div>
                      </div>
                   </div>
+                  <Chart/>
                   <div className={styles.statsBottom}>
                     <input className={styles.statsResetBtn} type="button" value="Reset"/>
                  </div>
