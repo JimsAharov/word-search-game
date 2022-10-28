@@ -1,0 +1,15 @@
+.Table {
+  display: grid;
+  user-select: none;
+
+  position: relative;
+}
+
+.Grid {
+  background: white;
+  border-radius: 50px;
+  width: 500px;
+  height: 500px;
+
+  padding: 2rem;
+}
