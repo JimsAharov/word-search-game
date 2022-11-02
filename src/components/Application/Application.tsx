@@ -19,14 +19,15 @@ import {
   View,
   Views,
 } from "framework7-react";
-import {StatsModal} from "../Modals/StatsModal/StatsModal";
+import { StatsModal } from "../Modals/StatsModal/StatsModal";
+import { EndGameModal } from "../Modals/EndGameModal/EndGameModal";
 
 function Application() {
   return (
     <App theme="auto" name="My App" id="com.demoapp.test">
       {/* Your main view, should have "main" prop */}
       <View main>
-        <Page bgColor={'lightblue'} colorTheme='white'>
+        <Page bgColor={"lightblue"} colorTheme="white">
           <div title={"LOGO"}>
             <NavLeft>
               <Link popupOpen={".demo-popup-swipe"}>
@@ -35,11 +36,14 @@ function Application() {
             </NavLeft>
 
             <NavRight>
-              <Icon f7={"bars"}></Icon>
+              <Link >
+                <Icon f7={"bars"}></Icon>
+              </Link>
             </NavRight>
           </div>
           <Game />
           <StatsModal />
+          <EndGameModal time={1000} bestTime={80000}/>
         </Page>
       </View>
     </App>

@@ -3,6 +3,7 @@ import { Button, Icon, Link, Page, Popup, View, Views, Menu, MenuItem, MenuDropd
 import styles from "./StatsModal.module.scss"
 import { Chart } from "../../Chart/Chart";
 
+
 export function StatsModal() {
   return (
     <Popup className="demo-popup-swipe" swipeToClose>
