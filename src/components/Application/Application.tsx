@@ -21,6 +21,7 @@ import {
 } from "framework7-react";
 import { StatsModal } from "../Modals/StatsModal/StatsModal";
 import { EndGameModal } from "../Modals/EndGameModal/EndGameModal";
+import { SettingsModal } from "../Modals/SettingsModal/SettingsModal";
 
 function Application() {
   return (
@@ -44,6 +45,7 @@ function Application() {
           <Game />
           <StatsModal />
           <EndGameModal time={1000} bestTime={80000}/>
+          <SettingsModal/>
         </Page>
       </View>
     </App>
