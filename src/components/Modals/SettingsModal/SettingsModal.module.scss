@@ -1,3 +1,10 @@
+
+#settingsPopup{
+    background-color: aqua;
+   
+
+}
+
 .settingsPanel{
     line-height: 1.15;
     color: #fff;
@@ -207,11 +214,12 @@
     color: #333;
     text-align: left;
     display: inline-block;
-    padding: 2px 70px 1px 0;
+    padding: 2px 0px 1px 0;
     line-height: 1.5em;
     font-size: 18px;
     white-space: normal;
     vertical-align: top;
+    margin-left: 20%;
 }
 
 .settingsDesc{

@@ -22,8 +22,10 @@ import {
 import { StatsModal } from "../Modals/StatsModal/StatsModal";
 import { EndGameModal } from "../Modals/EndGameModal/EndGameModal";
 import { SettingsModal } from "../Modals/SettingsModal/SettingsModal";
+import { Print } from "../Game/Print";
 
 function Application() {
+  
   return (
     <App theme="auto" name="My App" id="com.demoapp.test">
       {/* Your main view, should have "main" prop */}
@@ -37,15 +39,16 @@ function Application() {
             </NavLeft>
 
             <NavRight>
-              <Link >
+              <Link popupOpen={".demo-popup-settings"}>
                 <Icon f7={"bars"}></Icon>
               </Link>
             </NavRight>
           </div>
           <Game />
           <StatsModal />
-          <EndGameModal time={1000} bestTime={80000}/>
+          <EndGameModal time={1000000000} bestTime={80000}/>
           <SettingsModal/>
+          <Print/>
         </Page>
       </View>
     </App>

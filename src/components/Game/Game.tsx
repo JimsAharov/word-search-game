@@ -8,7 +8,10 @@ export type ColorsMap = {
   [word in string]: string;
 };
 
-export function Game() {
+export type GameType = {
+  rref?: any;
+}
+export function Game({rref}: GameType) {
   const options = {
     cols: 7,
     rows: 7,
@@ -31,5 +34,6 @@ export function Game() {
     {} as ColorsMap
   );
 
-  return <Grid ws={ws} colorsMap={colorsMap} />;
+  return <Grid ws={ws} colorsMap={colorsMap} rref={rref} />;
+  
 }

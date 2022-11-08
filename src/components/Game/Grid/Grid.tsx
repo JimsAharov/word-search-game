@@ -23,12 +23,13 @@ function isDefined<T>(x: T): x is Exclude<T, undefined> {
 export type GridType = {
   ws: WordSearch.WordSearchReturnType;
   colorsMap: ColorsMap;
+  rref: any;
 };
-export function Grid({ ws, colorsMap }: GridType) {
+export function Grid({ ws, colorsMap, rref }: GridType) {
   const [gridOffset, setGridOffset] = useState(null);
   const gridRef = useRef(null);
   console.log(colorsMap);
-
+   window.ref3 = rref
   const [selectionLines, setSelectionLines] = useState<
     SelectionColoredLineType[]
   >([]);
@@ -121,7 +122,7 @@ export function Grid({ ws, colorsMap }: GridType) {
   };
 
   return (
-    <div className="display-flex flex-direction-column align-items-center">
+    <div className="display-flex flex-direction-column align-items-center" ref={rref}>
       <div className={styles.Grid}>
         <div
           className={styles.Table}
